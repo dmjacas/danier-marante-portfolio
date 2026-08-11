@@ -17,7 +17,8 @@ FORBIDDEN_PAIRS = [
 ]
 # Generic "API Layer" as the MerchantMiles component.
 GENERIC_API = re.compile(r"API Layer")
-AUDIT_DOCS = ("docs/portfolio-v3-audit.md", "docs/portfolio-audit.md", "docs/content-consistency-report.md")
+AUDIT_DOCS = ("docs/portfolio-v3-audit.md", "docs/portfolio-audit.md", "docs/content-consistency-report.md",
+              "docs/portfolio-v3-final-audit.md")
 
 
 def main():
