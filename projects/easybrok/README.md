@@ -2,7 +2,7 @@
 
 ## Overview
 
-**EasyBrok** is a tool for the management of insurance sales, used in production to streamline the sales process and related operations.
+**EasyBrok** is a tool for the management of insurance sales, used in production to streamline the sales process and related operations. It is part of an insurance-sector family of solutions that includes **EasyRoute** and **SegurosYa**.
 
 > This product is live in production. Proprietary source code, credentials, private endpoints and confidential customer information are intentionally excluded.
 

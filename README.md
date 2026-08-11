@@ -36,6 +36,7 @@ My focus areas are **Fintech & Banking**, distributed systems, microservices, cl
 - Participation in the development of **20+ production tools** throughout my career
 - Production Loyalty Platform in Fintech/Banking — **MerchantMiles** — with the private banking divisions of **Clubmiles** and **Promerica** across **Ecuador and Central America**
 - Production SaaS for carbon footprint measurement — **GreenCloud** — used by **Intel CR**, **Coca-Cola Bolivia**, **CAF** and **BCIE**
+- Solutions for financial-sector clients including **Diners**, **Banco Pichincha** and **Grupo Chaide**
 - AI Engineering: MCP servers published as npm packages (`ppm-doc`), n8n orchestration and Ollama local models
 - Early adopter of AI-assisted engineering since GitHub Copilot's closed beta (Cursor, Windsurf, opencode)
 
@@ -88,6 +89,7 @@ Production e-commerce platform — [chaide.com](https://www.chaide.com) — buil
 - [Neutralfy — Carbon footprint compensation for air travel](projects/neutralfy/README.md)
 - [EasyBrok — Insurance sales management](projects/easybrok/README.md)
 - [ppm-doc — MCP server for automated development documentation](projects/ppm-doc/README.md)
+- [Airline tools — booking & fares front-end](projects/airline-tools/README.md)
 - [Mobile Solutions — React Native / Expo apps](projects/mobile-solutions/README.md)
   - Clubmiles Ecuador loyalty app
   - Aseguradora del Sur internal mobile tools
@@ -140,15 +142,15 @@ As an engineering practice, I was an early adopter of AI coding tools since beta
 
 | Area | Technologies |
 |---|---|
-| Backend | .NET Core 8, Node.js, TypeScript, Golang, Java, PHP, Laravel |
-| Frontend | React, Next.js, AngularJS, TypeScript, TailwindCSS, MUI, HeroUI |
+| Backend | .NET Core (6/8/10), Node.js, TypeScript, Golang, Java, Spring, PHP, Laravel, Python, Django, Ruby, Kotlin |
+| Frontend | React 19, Next.js, AngularJS, TypeScript, TailwindCSS, MUI, HeroUI |
 | Mobile | React Native, Expo |
 | Cloud | AWS, Azure |
-| Databases | PostgreSQL, MySQL |
-| DevOps | Docker, Docker Compose, Terraform, CI/CD |
-| Architecture | Microservices, REST, Clean Architecture, API Gateway, Event-driven |
+| Databases | PostgreSQL, MySQL, SQL Server, Oracle, MongoDB, SAP HANA |
+| DevOps | Docker, Docker Compose, Terraform, CI/CD, Linux |
+| Architecture | Microservices, REST, Clean Architecture, Hexagonal, API Gateway, Event-driven |
 | Security | OAuth 2.0, JWT, Amazon Cognito, HTTPS |
-| AI | Amazon Bedrock, LLMs, embeddings, vector search, MCP, AI Agents, n8n, Ollama, npm AI/MCP packages |
+| AI | Amazon Bedrock, LLMs, embeddings, vector search, MCP, AI Agents, n8n, Ollama, Genkit, npm AI/MCP packages |
 | Quality | Jest, SonarCloud, automated testing |
 
 [Technology matrix →](profile/skills.md)
@@ -187,15 +189,21 @@ Selected examples of architectural decision documentation, linked to the project
 
 ## Professional Experience
 
-### Solution Manager / Technical Lead — PPM Publipromueve
+### Solution Manager / Tech Team Lead — PPM Publipromueve
 
-Technical leadership and architecture of digital products, including the MerchantMiles loyalty platform.
+Technical leadership and architecture of digital products for the financial sector: solutions for **Diners**, **Banco Pichincha**, **Grupo Chaide** and **Promerica**, including the MerchantMiles loyalty platform.
 
 [Experience →](experience/ppm.md)
 
+### Frontend Developer — Everymundo
+
+React component development for international airline digital products.
+
+[Experience →](experience/everymundo.md)
+
 ### Software Engineer / Technical Lead — Greenlook.SA
 
-Software engineering, technical leadership and enterprise application development.
+Software engineering, technical leadership and enterprise application development (GreenCloud, Routned, GreenBenchmark).
 
 [Experience →](experience/greenlook.md)
 
@@ -224,6 +232,18 @@ Software engineering and development of business solutions.
 - GitHub: `https://github.com/dmjacas`
 - LinkedIn: `https://www.linkedin.com/in/danier-marante-jacas-09b20ba1/`
 - Email: `dmjacas@gmail.com`
+- Location: Ecuador
+
+---
+
+## Education
+
+- **Computer Science Engineering** — Universidad de las Ciencias Informáticas (UCI), Cuba (2009)
+
+## Languages
+
+- Spanish — native
+- English — technical/intermediate
 
 ---
 

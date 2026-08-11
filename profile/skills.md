@@ -11,23 +11,26 @@ Technologies below come from documented projects and experience. `[TBD]` marks a
 - Cloud Architecture
 - Event-driven patterns
 - Security (OAuth 2.0, JWT, Cognito)
-- Clean Architecture / DDD principles
+- Clean Architecture / Hexagonal / DDD principles
 - Performance, Observability, Scalability
 
 ## Backend
 
-- .NET Core 8
+- .NET Core (6 / 8 / 10)
 - Node.js
 - TypeScript
 - Golang
-- Laravel (PHP)
-- Java
+- Java / Spring
+- PHP / Laravel
+- Python / Django
+- Ruby
+- Kotlin
 - REST APIs
 - Microservices
 
 ## Frontend
 
-- React
+- React 19
 - Next.js
 - AngularJS
 - TypeScript
@@ -48,11 +51,16 @@ Technologies below come from documented projects and experience. `[TBD]` marks a
 - Terraform
 - CI/CD
 - Infrastructure as Code
+- Linux administration
 
 ## Data
 
 - PostgreSQL
 - MySQL
+- SQL Server
+- Oracle
+- MongoDB
+- SAP HANA
 - Vector search (PostgreSQL/vector extensions or managed stores)
 
 ## AI
@@ -65,6 +73,7 @@ Technologies below come from documented projects and experience. `[TBD]` marks a
 - AI Agents
 - n8n
 - Ollama
+- Genkit
 - AI-assisted development (GitHub Copilot, Cursor, Windsurf, opencode)
 
 ## Quality

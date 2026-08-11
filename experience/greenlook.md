@@ -1,8 +1,8 @@
-# Greenlook.SA
+# GreenLook.SA
 
 ## Role
 
-Software Engineer / Technical Lead
+Development Lead (2015)
 
 ## Focus
 
@@ -10,14 +10,13 @@ Enterprise software engineering and technical solution delivery.
 
 ## Responsibilities
 
-- Software development
-- Technical analysis
-- Application architecture
-- API integration
-- Database development
-- Technical troubleshooting
-- Delivery of business requirements
+- Software development in Java, PHP and Node.js
+- Project leadership:
+  - **GreenCloud** — carbon footprint platform ([case study →](../projects/greencloud/README.md))
+  - **Routned**
+  - **GreenBenchmark**
+- Linux server administration
 
 ## Engineering focus
 
-The work included designing maintainable applications while balancing business requirements, technical constraints and delivery timelines.
+Leading development teams while designing maintainable applications, balancing business requirements, technical constraints and delivery timelines.

@@ -8,7 +8,8 @@ Cross-platform mobile applications using React Native and Expo.
 
 I have worked on mobile applications for different sectors and clients, including:
 
-- **Clubmiles Ecuador** — loyalty app connecting users with merchants, benefits and campaigns
+- **ClubMiles (Clubmiles Ecuador)** — loyalty app connecting users with merchants, benefits and campaigns
+- **Novokey** — mobile security tool for vehicles (Chile)
 - **Aseguradora del Sur** — internal mobile tools for insurance operations and business processes
 - **PPM** — internal company solution for digital products and technical operations
 
