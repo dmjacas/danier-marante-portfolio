@@ -65,7 +65,17 @@ This template standardizes project documentation. Use `[TBD]` for any section wh
 
 ## Results
 
-[Validated outcomes only. Mark unknown metrics `[Metric to validate]` / `[TBD]`.]
+### Implementation
+
+[What we built.]
+
+### Outcome
+
+[What changed for the business/users thanks to the solution.]
+
+### Result
+
+[The metric that demonstrates the change — validated only. Mark unknown metrics `[Metric to validate]` / `[Confidential]`.]
 
 ## Lessons Learned
 
