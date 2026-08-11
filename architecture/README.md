@@ -11,6 +11,7 @@ Architecture documentation representing real experience and architectural thinki
 - [Distributed Systems](distributed-systems.md)
 - [Event-Driven](event-driven.md)
 - [Scalability](scalability.md)
+- [Availability & Reliability](availability.md)
 
 ## How decisions are documented
 
