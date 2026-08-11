@@ -79,6 +79,6 @@ Implemented: `[Metric to validate]`.
 ## Related
 
 - [Availability & Reliability architecture →](../../architecture/availability.md)
-- [MerchantMiles case study →](../README.md)
+- [MerchantMiles case study →](README.md)
 - [ADR-002 — PostgreSQL →](../../docs/architecture-decisions/ADR-002-postgresql.md)
 - [ADR-003 — AWS →](../../docs/architecture-decisions/ADR-003-aws.md)
