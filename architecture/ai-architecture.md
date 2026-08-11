@@ -1,31 +1,33 @@
 # AI Architecture
 
-## Enterprise AI Reference Architecture
+> The full AI engineering material lives in the dedicated section [AI Engineering →](../ai/README.md). This page keeps the architecture-level reference and links to the detailed documents.
+
+## Reference architecture
 
 ```text
-                         User / Application
-                                │
-                                ▼
-                         AI Application
-                                │
-                     ┌──────────┴──────────┐
-                     │                     │
-                     ▼                     ▼
-                 LLM / Bedrock       Retrieval Layer
-                                           │
-                              ┌────────────┴────────────┐
-                              ▼                         ▼
-                         Embeddings                Vector Store
-                              │                         │
-                              └────────────┬────────────┘
-                                           ▼
-                                    Context / RAG
-                                           │
-                                           ▼
-                                        LLM
-                                           │
-                                           ▼
-                                      Response
+                          User / Application
+                                 │
+                                 ▼
+                          AI Application
+                                 │
+                      ┌──────────┴──────────┐
+                      │                     │
+                      ▼                     ▼
+                  LLM / Bedrock       Retrieval Layer
+                                            │
+                               ┌────────────┴────────────┐
+                               ▼                         ▼
+                          Embeddings                Vector Store
+                               │                         │
+                               └────────────┬────────────┘
+                                            ▼
+                                     Context / RAG
+                                            │
+                                            ▼
+                                         LLM
+                                            │
+                                            ▼
+                                       Response
 ```
 
 ## Components
@@ -36,8 +38,7 @@
 - Retrieval-Augmented Generation
 - Prompt engineering
 - AI agents
-- MCP
-- MCP servers published as npm packages
+- MCP (servers published as npm packages, e.g. `ppm-doc`)
 - n8n workflow orchestration
 - Ollama (local / self-hosted LLMs)
 - Tool calling
@@ -54,11 +55,11 @@
 6. Control token and infrastructure cost.
 7. Provide deterministic fallbacks for critical operations.
 
-## Process automation
+## Related documents
 
-AI can automate engineering and business processes when orchestrated correctly:
-
-- n8n coordinates workflows, triggers and integrations across tools (Jira, Git, CRMs, webhooks, schedules).
-- MCP servers packaged as npm packages expose reusable capabilities to AI assistants (e.g. `ppm-doc` generates development docs from Jira user stories).
-- Ollama serves models locally when data must stay private, offline or cost-sensitive; cloud LLMs handle workloads that exceed local capacity.
-- Exposed tools must have clear contracts, validation and observability so automated runs remain safe and auditable.
+- [AI Engineering overview →](../ai/README.md)
+- [AI Architecture deep dive →](../ai/architecture.md)
+- [MCP case study →](../ai/mcp.md)
+- [Process automation →](../ai/automation.md)
+- [Embeddings & retrieval →](../ai/embeddings.md)
+- [AI agents →](../ai/agents.md)
