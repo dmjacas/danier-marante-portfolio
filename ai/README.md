@@ -18,13 +18,18 @@ Result
 
 ## Experience
 
+**AI Engineering (architectural capability):**
+
 - **Amazon Bedrock** — LLM and embedding workloads on managed infrastructure
 - **Embeddings & vector search** — semantic retrieval and RAG
 - **MCP (Model Context Protocol)** — servers published as npm packages (e.g. `ppm-doc`)
 - **AI agents** — tool calling and agentic workflows
 - **n8n** — workflow orchestration across tools (Jira, Git, CRMs, webhooks, schedules)
 - **Ollama** — local/self-hosted models for private or offline workloads
-- **AI-assisted development** — GitHub Copilot (since the closed beta), Cursor, Windsurf, opencode
+
+**AI-Assisted Development (productivity capability):**
+
+- GitHub Copilot (since the closed beta), Cursor, Windsurf, opencode — AI coding tools integrated into team toolchains.
 
 ## Documents
 

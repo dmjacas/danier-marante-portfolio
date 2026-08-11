@@ -114,11 +114,12 @@ I build and operate AI-enabled systems, not just applications on top of an LLM A
 - **Retrieval** — embeddings, vector search and RAG
 - **Agents & tooling** — AI agents and MCP (Model Context Protocol)
 - **Process automation** — n8n workflows, MCP servers published as npm packages (`ppm-doc`), Ollama for local/private models
-- **AI-assisted engineering** — GitHub Copilot (since the closed beta), Cursor, Windsurf, opencode
-
-I have been an early adopter of AI coding tools since beta stages and integrate them into team toolchains and development practices — improving the complete workflow from requirements to operations.
 
 [AI Engineering →](ai/README.md)
+
+### AI-Assisted Development
+
+As an engineering practice, I was an early adopter of AI coding tools since beta stages and integrate them into team toolchains: GitHub Copilot (since the closed beta), Cursor, Windsurf, opencode. This is a productivity capability; **AI Engineering** above is the architectural capability.
 
 ---
 
@@ -172,12 +173,14 @@ I have been an early adopter of AI coding tools since beta stages and integrate 
 
 ## Architecture Decision Records
 
-Selected examples of architectural decision documentation.
+Selected examples of architectural decision documentation, linked to the projects where they were applied.
 
-- [ADR-001 — Microservices](docs/architecture-decisions/ADR-001-microservices.md)
-- [ADR-002 — PostgreSQL](docs/architecture-decisions/ADR-002-postgresql.md)
-- [ADR-003 — AWS](docs/architecture-decisions/ADR-003-aws.md)
-- [ADR-004 — AI / Embeddings](docs/architecture-decisions/ADR-004-ai-embeddings.md)
+- [ADR-001 — Microservices](docs/architecture-decisions/ADR-001-microservices.md) — MerchantMiles
+- [ADR-002 — PostgreSQL](docs/architecture-decisions/ADR-002-postgresql.md) — MerchantMiles, Chaide, GreenCloud, NeutralBank, Neutralfy
+- [ADR-003 — AWS](docs/architecture-decisions/ADR-003-aws.md) — MerchantMiles, Chaide, GreenCloud
+- [ADR-004 — AI / Embeddings](docs/architecture-decisions/ADR-004-ai-embeddings.md) — AI Engineering
+
+[Full ADR index →](docs/architecture-decisions/README.md)
 
 ---
 
