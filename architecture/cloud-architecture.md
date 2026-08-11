@@ -1,5 +1,9 @@
 # Cloud Architecture
 
+## Experience
+
+Applied to production platforms on AWS: managed storage, CDN, identity and access management, serverless components where appropriate, and Infrastructure as Code for reproducibility (e.g. MerchantMiles).
+
 ## Reference AWS Architecture
 
 ```text
@@ -51,3 +55,14 @@ Terraform can be used to define:
 - CDN
 - Serverless infrastructure
 - Monitoring
+
+## Lessons Learned
+
+- Managed services reduce operational burden but require IAM, cost and lifecycle discipline.
+- Infrastructure as Code makes environments reproducible and reviewable.
+- Availability is architected, not only measured (see [Availability & Reliability](availability.md)).
+
+## Related
+
+- [MerchantMiles (Cloud) →](../projects/merchant-miles/README.md)
+- [ADR-003 — AWS →](../docs/architecture-decisions/ADR-003-aws.md)
