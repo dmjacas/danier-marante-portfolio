@@ -1,158 +1,191 @@
 # Danier Marante
 
-## Senior Software Engineer · Solution Architect · Technical Lead
+## Solution Architect · Senior Software Engineer · Technical Lead
 
-Senior Software Engineer and Solution Architect with 15+ years of experience designing, developing and leading high-criticality software solutions.
+Designing scalable, secure and AI-enabled software systems for **Fintech, Banking and enterprise applications**. 15+ years of experience across architecture, technical leadership, cloud-native development and AI engineering.
 
-My focus is building scalable, secure and maintainable systems using **microservices, cloud architecture, modern web/mobile platforms and AI**.
-
-> This portfolio presents architecture case studies, engineering decisions and technical experience. Company projects are described at an architectural level and do not contain proprietary source code, credentials, customer data or confidential information.
+> This portfolio presents architecture case studies, engineering decisions, architecture decision records and technical experience. Company projects are described at an architectural level and do not contain proprietary source code, credentials, customer data or confidential information.
 
 ---
 
-## 🚀 Core Expertise
+## About
 
-- Software Architecture
+I help organizations turn business problems into production systems that are scalable, secure, observable and economically sustainable. I work across the full lifecycle: understanding the problem, designing the architecture, making the decisions, leading the delivery and ensuring the system stays maintainable in production.
+
+My focus areas are **Fintech & Banking**, distributed systems, microservices, cloud architecture (AWS/Azure) and AI engineering (LLMs, embeddings, MCP, agents and process automation).
+
+---
+
+## What I Do
+
 - Solution Architecture
-- Technical Leadership
-- Microservices
-- Cloud-native systems
-- API design
-- Distributed systems
-- Clean Architecture
-- Domain-driven design principles
-- Security and authentication
-- Performance optimization
-- CI/CD and Infrastructure as Code
-- Generative AI and AI Agents
+- Distributed Systems & Microservices
+- Cloud Architecture (AWS / Azure)
+- Technical Leadership & Architecture Reviews
+- Fintech / Banking Solutions
+- AI Engineering & Automation (MCP, Bedrock, embeddings, agents)
+- API Design & Integration
+- Security by Design
+- Performance & Observability
 
-## 🧰 Technology Stack
+---
+
+## Impact
+
+- **15+ years** of software engineering and architecture experience
+- Participation in the development of **20+ production tools** throughout my career
+- Production Loyalty Platform in Fintech/Banking — **MerchantMiles** — with the private banking divisions of **Clubmiles** and **Promerica** across **Ecuador and Central America**
+- Production SaaS for carbon footprint measurement — **GreenCloud** — used by **Intel CR**, **Coca-Cola Bolivia**, **CAF** and **BCIE**
+- AI Engineering: MCP servers published as npm packages (`ppm-doc`), n8n orchestration and Ollama local models
+- Early adopter of AI-assisted engineering since GitHub Copilot's closed beta (Cursor, Windsurf, opencode)
+
+> Additional quantitative impact metrics are `[Metric to validate]` and are only included once confirmed.
+
+---
+
+## Featured Case Studies
+
+### 1. MerchantMiles — Loyalty Platform (Fintech / Banking)
+
+Production loyalty platform connecting financial-card users with merchants, campaigns and benefits for the private banking divisions of **Clubmiles** and **Promerica** in **Ecuador and Central America**.
+
+**My role:** Technical Lead · Frontend Specialist
+
+**Business problem:** How to enable banks' private clients to discover and redeem merchant benefits through a unified, scalable loyalty ecosystem.
+
+[View case study →](projects/merchant-miles/README.md)
+
+### 2. AI Engineering & MCP
+
+Enterprise AI architecture and process automation: Amazon Bedrock, embeddings and vector search, MCP servers published as npm packages (`ppm-doc`), n8n workflow orchestration, AI agents and Ollama for local/private models.
+
+**My role:** Solution Architect · AI automation practitioner
+
+**Business problem:** How to automate repetitive engineering and business workflows with AI while keeping business rules deterministic and sensitive data protected.
+
+[AI Engineering →](ai/README.md) · [MCP case study →](ai/mcp.md) · [Process automation →](projects/ai-automation/README.md)
+
+### 3. GreenCloud — Carbon Footprint SaaS
+
+Production SaaS for measuring organizational carbon footprint, used by **Intel CR**, **Coca-Cola Bolivia**, **CAF** and **BCIE**.
+
+[View project →](projects/greencloud/README.md)
+
+### 4. NeutralBank — Environmental Impact in Multilateral Banking
+
+Production tool for measuring environmental impact in multilateral banking.
+
+[View project →](projects/neutralbank/README.md)
+
+### 5. Chaide — Specialized E-commerce
+
+Production e-commerce platform — [chaide.com](https://www.chaide.com) — built with Next.js and Golang.
+
+[View project →](projects/chaide/README.md)
+
+### More projects
+
+- [Neutralfy — Carbon footprint compensation for air travel](projects/neutralfy/README.md)
+- [EasyBrok — Insurance sales management](projects/easybrok/README.md)
+- [Mobile Solutions — React Native / Expo apps](projects/mobile-solutions/README.md)
+  - Clubmiles Ecuador loyalty app
+  - Aseguradora del Sur internal mobile tools
+  - PPM internal tools
+
+---
+
+## Architecture
+
+- [Microservices](architecture/microservices.md)
+- [Cloud Architecture](architecture/cloud-architecture.md)
+- [Security Architecture](architecture/security.md)
+- [AI Architecture](architecture/ai-architecture.md)
+- [Architecture knowledge base →](architecture/README.md)
+
+I design around business problems first, then technology. Every important solution is evaluated across **scalability, availability, security, performance, observability, maintainability, cost and deployment**.
+
+---
+
+## AI Engineering
+
+I build and operate AI-enabled systems, not just applications on top of an LLM API:
+
+- **Provider abstraction** — architecture that avoids coupling business logic to a single LLM provider
+- **Retrieval** — embeddings, vector search and RAG
+- **Agents & tooling** — AI agents and MCP (Model Context Protocol)
+- **Process automation** — n8n workflows, MCP servers published as npm packages (`ppm-doc`), Ollama for local/private models
+- **AI-assisted engineering** — GitHub Copilot (since the closed beta), Cursor, Windsurf, opencode
+
+I have been an early adopter of AI coding tools since beta stages and integrate them into team toolchains and development practices — improving the complete workflow from requirements to operations.
+
+[AI Engineering →](ai/README.md)
+
+---
+
+## Technical Leadership
+
+- Architecture reviews and technical decision making
+- Backend/frontend coordination and delivery
+- Engineering standards, code quality and CI/CD
+- Mentoring and team practices
+- Pairing architecture with business priorities
+
+[Technical Leadership →](leadership/README.md)
+
+---
+
+## Technology
 
 | Area | Technologies |
 |---|---|
-| Backend | .NET Core 6/8, Node.js, TypeScript, Golang, Java, PHP |
-| Frontend | React, Next.js, TypeScript, TailwindCSS, MUI, HeroUI |
+| Backend | .NET Core 8, Node.js, TypeScript, Golang, Java, PHP, Laravel |
+| Frontend | React, Next.js, AngularJS, TypeScript, TailwindCSS, MUI, HeroUI |
 | Mobile | React Native, Expo |
 | Cloud | AWS, Azure |
 | Databases | PostgreSQL, MySQL |
 | DevOps | Docker, Docker Compose, Terraform, CI/CD |
-| Architecture | Microservices, REST, Clean Architecture, API Gateway |
+| Architecture | Microservices, REST, Clean Architecture, API Gateway, Event-driven |
 | Security | OAuth 2.0, JWT, Amazon Cognito, HTTPS |
 | AI | Amazon Bedrock, LLMs, embeddings, vector search, MCP, AI Agents, n8n, Ollama, npm AI/MCP packages |
 | Quality | Jest, SonarCloud, automated testing |
 
----
-
-# 🏗️ Architecture Portfolio
-
-## Microservices
-
-Experience designing services around business capabilities, API contracts, independent deployment and scalability.
-
-[Architecture →](architecture/microservices.md)
-
-## Cloud Architecture
-
-Cloud solutions using AWS/Azure services, managed databases, object storage, serverless components, networking and Infrastructure as Code.
-
-[Architecture →](architecture/cloud-architecture.md)
-
-## Security
-
-Authentication, authorization, API security, OAuth 2.0, JWT, Cognito, HTTPS and secure integration patterns.
-
-[Architecture →](architecture/security.md)
-
-## AI Architecture
-
-Integration of LLMs, embeddings, vector search, Amazon Bedrock, AI agents and MCP into enterprise applications.
-
-[Architecture →](architecture/ai-architecture.md)
-
-## AI Process Automation
-
-Automation of engineering and business workflows using MCP servers published as npm packages, n8n orchestration and self-hosted LLMs (Ollama) — connecting AI to existing tools like Jira and Git.
-
-[Architecture →](architecture/ai-architecture.md) · [Case study →](projects/ai-automation/README.md)
+[Technology matrix →](profile/skills.md)
 
 ---
 
-# 📦 Featured Projects
+## Engineering Principles
 
-> Throughout my career I have participated in the development of **more than 20 tools in production**. The most representative ones are listed below.
+1. Solve the business problem before optimizing technology.
+2. Minimize unnecessary coupling.
+3. Make failure explicit and observable.
+4. Prefer simple solutions over accidental complexity.
+5. Treat security as an architectural concern.
+6. Design for change.
+7. Automate repetitive engineering work.
+8. Measure performance instead of guessing.
+9. Keep infrastructure reproducible.
+10. Use AI where it creates measurable value.
 
-## MerchantMiles
-
-Loyalty platform in production with the private banking divisions of **Clubmiles** and **Promerica** in **Ecuador and Central America**. I served as **Technical Lead** and **Frontend Specialist**.
-
-**Architecture**
-
-- React
-- Next.js
-- .NET Core 8
-- Microservices
-- PostgreSQL
-- AWS
-- Docker
-- REST APIs
-
-[View project →](projects/merchant-miles/README.md)
-
-## AI Solutions
-
-Architecture patterns for enterprise AI applications using LLMs, embeddings, vector search and agents.
-
-[View case study →](projects/ai-solutions/README.md)
-
-## Mobile Solutions
-
-Cross-platform mobile applications using React Native and Expo, including API integration and device capabilities.
-
-[View case study →](projects/mobile-solutions/README.md)
-
-## AI Process Automation
-
-AI-powered automation of processes using MCP servers published as npm packages (e.g. `ppm-doc`), n8n workflow orchestration and Ollama for local/private LLMs.
-
-[View case study →](projects/ai-automation/README.md)
-
-## Chaide (Chaid)
-
-Specialized e-commerce in production — [https://www.chaide.com](https://www.chaide.com). Built with Next.js and Golang.
-
-[View project →](projects/chaide/README.md)
-
-## EasyBrok
-
-Management tool for insurance sales, in production.
-
-[View project →](projects/easybrok/README.md)
-
-## GreenCloud
-
-Carbon footprint SaaS in production, used by companies including **Intel CR**, **Coca-Cola Bolivia**, **CAF** and **BCIE**.
-
-[View project →](projects/greencloud/README.md)
-
-## NeutralBank
-
-Environmental impact measurement tool for multilateral banking, in production.
-
-[View project →](projects/neutralbank/README.md)
-
-## Neutralfy
-
-Carbon footprint compensation tool for air travel, in production.
-
-[View project →](projects/neutralfy/README.md)
+[Engineering principles →](docs/engineering-principles.md)
 
 ---
 
-# 💼 Professional Experience
+## Architecture Decision Records
+
+Selected examples of architectural decision documentation.
+
+- [ADR-001 — Microservices](docs/architecture-decisions/ADR-001-microservices.md)
+- [ADR-002 — PostgreSQL](docs/architecture-decisions/ADR-002-postgresql.md)
+- [ADR-003 — AWS](docs/architecture-decisions/ADR-003-aws.md)
+- [ADR-004 — AI / Embeddings](docs/architecture-decisions/ADR-004-ai-embeddings.md)
+
+---
+
+## Professional Experience
 
 ### Solution Manager / Technical Lead — PPM Publipromueve
 
-Technical leadership and architecture for digital products including MerchantMiles.
+Technical leadership and architecture of digital products, including the MerchantMiles loyalty platform.
 
 [Experience →](experience/ppm.md)
 
@@ -182,79 +215,7 @@ Software engineering and development of business solutions.
 
 ---
 
-# 🧠 Engineering Principles
-
-I believe good software architecture should:
-
-1. Solve the business problem before optimizing technology.
-2. Minimize unnecessary coupling.
-3. Make failure explicit and observable.
-4. Prefer simple solutions over accidental complexity.
-5. Treat security as an architectural concern.
-6. Design for change.
-7. Automate repetitive engineering work.
-8. Measure performance instead of guessing.
-9. Keep infrastructure reproducible.
-10. Use AI where it creates measurable value.
-
-[Engineering principles →](docs/engineering-principles.md)
-
----
-
-# 📐 Architecture Decision Records
-
-Selected examples of architectural decision documentation.
-
-- [ADR-001 — Microservices](docs/architecture-decisions/ADR-001-microservices.md)
-- [ADR-002 — PostgreSQL](docs/architecture-decisions/ADR-002-postgresql.md)
-- [ADR-003 — AWS](docs/architecture-decisions/ADR-003-aws.md)
-- [ADR-004 — AI/Embeddings](docs/architecture-decisions/ADR-004-ai-embeddings.md)
-
----
-
-# 📊 Architecture Quality
-
-For every important solution I consider:
-
-| Dimension | Questions |
-|---|---|
-| Scalability | Can the system handle growth? |
-| Availability | What happens when dependencies fail? |
-| Security | What is the threat model? |
-| Performance | What are the critical paths? |
-| Observability | Can failures be diagnosed quickly? |
-| Maintainability | Can another team evolve it safely? |
-| Cost | Is the architecture economically sustainable? |
-| Deployment | Can changes be delivered independently? |
-
----
-
-# 🤖 AI & Developer Productivity
-
-I actively use AI-assisted engineering tools and platforms including:
-
-- **GitHub Copilot** — early adopter since the closed beta/preview
-- **Cursor**
-- **Windsurf**
-- **opencode**
-- **Amazon Bedrock**
-- **n8n**
-- **MCP (Model Context Protocol)**
-- **AI Agents**
-- **Ollama (local/self-hosted models)**
-- **npm packages exposing AI/MCP tooling** (e.g. `ppm-doc`)
-
-I regularly evaluate, adopt and integrate emerging AI coding tools as they move from closed beta and preview to production workflows, factoring them into team toolchains and development practices.
-
-I also build and publish MCP servers as npm packages to automate processes with AI — connecting assistants to tools and systems like Jira and Git.
-
-The goal is not simply generating code, but improving the complete engineering workflow:
-
-**Requirements → Design → Implementation → Testing → Documentation → Operations**
-
----
-
-# 📫 Contact
+## Contact
 
 - GitHub: `https://github.com/dmjacas`
 - LinkedIn: `https://www.linkedin.com/in/danier-marante-jacas-09b20ba1/`
