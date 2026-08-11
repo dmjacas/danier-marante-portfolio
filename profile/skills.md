@@ -69,6 +69,6 @@ Technologies below come from documented projects and experience. `[TBD]` marks a
 
 ## Quality
 
-- Automatized testing (Jest)
+- Automated testing (Jest)
 - SonarCloud / static analysis
 - Code review culture
