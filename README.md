@@ -94,6 +94,7 @@ Production e-commerce platform — [chaide.com](https://www.chaide.com) — buil
   - Clubmiles Ecuador loyalty app
   - Aseguradora del Sur internal mobile tools
   - PPM internal tools
+  - NovoKey
 
 ---
 
