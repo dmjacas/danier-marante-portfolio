@@ -6,7 +6,7 @@ Selected architecture diagrams across the portfolio. Each entry includes the pro
 
 | # | Project | Architecture type | Key technologies | Main challenge |
 |---|---|---|---|---|
-| 1 | MerchantMiles | Microservices (Loyalty, Fintech/Banking) | React, Next.js, .NET Core 8, PostgreSQL, AWS | Multi-country, multi-tenant scaling and independent deployment |
+| 1 | MerchantMiles | Microservices (Loyalty, Fintech/Banking) | React, Next.js, .NET Core 8, PostgreSQL, AWS | Multi-country scaling and independent deployment |
 | 2 | Reference Microservices | Service-oriented (generic reference) | API Gateway, services, PostgreSQL | [diagrams/microservices.svg](microservices.svg) |
 | 3 | AI / MCP | AI architecture | Bedrock, embeddings, MCP, n8n, Ollama | Provider abstraction and deterministic automation |
 | 4 | Chaide | Modular e-commerce | Next.js, Golang | Catalog/orders/payments paths under demand peaks |
@@ -24,7 +24,7 @@ Selected architecture diagrams across the portfolio. Each entry includes the pro
 
 ```mermaid
 flowchart TD
-    Users[Clients - React / Next.js] --> API[API Layer]
+    Users[Clients - React / Next.js] --> API[API Gateway]
     API --> UsersService[Users Service]
     API --> BenefitsService[Benefits Service]
     API --> CampaignsService[Campaigns Service]
