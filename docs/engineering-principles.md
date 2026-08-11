@@ -1,41 +1,47 @@
 # Engineering Principles
 
-## 1. Business first
+Executive version. These principles guide architecture, leadership and delivery decisions. The skill is applying them in context — a principle exists to serve the business problem, not to be followed blindly.
 
-Architecture exists to solve business problems.
+## Business First
 
-## 2. Simplicity
+Architecture exists to solve business problems. Solve the business problem before optimizing technology.
 
-Prefer the simplest architecture that satisfies current and foreseeable requirements.
+## Simplicity
 
-## 3. Explicit boundaries
+Prefer the simplest architecture that satisfies current and foreseeable requirements. Avoid accidental complexity; reuse what already works.
 
-Business capabilities should have clear ownership and contracts.
+## Low Coupling
 
-## 4. Security by design
+Business capabilities should have clear ownership and explicit contracts. Minimize unnecessary coupling; make asynchronous processing explicit.
 
-Security is not a final checklist. It is part of architecture, implementation and operations.
+## Security by Design
 
-## 5. Observability
+Security is not a final checklist — it is part of architecture, implementation and operations. Know the threat model of every important system.
 
-A production system must provide enough information to explain failures and performance problems.
+## Observability
 
-## 6. Automation
+A production system must provide enough information to explain failures and performance problems: structured logs, metrics, health checks and tracing.
 
-Automate testing, deployment, infrastructure and repetitive development tasks.
+## Automation
 
-## 7. Quality gates
+Automate testing, deployment, infrastructure and repetitive development tasks. Repetitive engineering work is automated so people focus on judgment.
 
-Use automated tests, static analysis and code review to prevent regressions.
+## Quality Gates
 
-## 8. Evolution
+Use automated tests, static analysis and code review to prevent regressions. Make failure explicit and observable rather than silent.
 
-Architecture should support incremental change rather than require large rewrites.
+## Infrastructure as Code
 
-## 9. Measurable performance
+Keep infrastructure reproducible and reviewable. Treat configuration as code with the same rigor as application code.
 
-Use metrics such as latency, throughput, Core Web Vitals and resource consumption.
+## Measurable Performance
 
-## 10. Responsible AI
+Measure instead of guessing. Use metrics such as latency, throughput, Core Web Vitals and resource consumption to drive decisions.
 
-AI components require evaluation, security controls, monitoring and deterministic fallbacks where appropriate.
+## Continuous Improvement
+
+Design for change and evolution. Architecture should support incremental improvement rather than require large rewrites.
+
+## Responsible AI
+
+AI components require evaluation, security controls, monitoring and deterministic fallbacks where appropriate. Use AI where it creates measurable value.
