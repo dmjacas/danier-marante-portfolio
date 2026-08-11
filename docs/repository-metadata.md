@@ -29,6 +29,9 @@ mcp
 amazon-bedrock
 cloud-architecture
 postgresql
+typescript
+automation
+npm
 ```
 
 Avoid adding topics that do not represent actual content (no keyword padding).
@@ -48,5 +51,5 @@ gh repo edit dmjacas/danier-marante-portfolio \
   --add-topic fintech --add-topic banking --add-topic microservices --add-topic aws \
   --add-topic dotnet --add-topic nodejs --add-topic react --add-topic nextjs \
   --add-topic ai --add-topic mcp --add-topic amazon-bedrock --add-topic cloud-architecture \
-  --add-topic postgresql
+  --add-topic postgresql --add-topic typescript --add-topic automation --add-topic npm
 ```

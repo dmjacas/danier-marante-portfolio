@@ -52,7 +52,7 @@ Data processing and reporting are capabilities of the platform; they consume ser
 - Define business boundaries before defining database ownership.
 - A service must own its data to remain independently deployable.
 - Reporting is a consumer of service APIs, not a free reader of every table.
-- Avoid sharing databases indiscriminately (see [ADR-001](../docs/architecture-decisions/ADR-001-microservices.md)).
+- Avoid sharing databases indiscriminately (see [ADR-001](../../docs/architecture-decisions/ADR-001-microservices.md)).
 
 ## Related
 

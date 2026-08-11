@@ -1,0 +1,14 @@
+flowchart TD
+    App[Application]
+    Orchestrator[AI Orchestrator]
+    Policy[Prompt / Policy Layer]
+    Embedding[Embedding Service]
+    Vector[Vector Store]
+    LLM[LLM Provider]
+    Tools[Tools / MCP / APIs]
+
+    App --> Orchestrator
+    Orchestrator --> Policy
+    Orchestrator --> Embedding --> Vector
+    Orchestrator --> LLM
+    Orchestrator --> Tools

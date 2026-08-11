@@ -1,0 +1,27 @@
+flowchart TD
+    subgraph Frontend
+        Web[React / Next.js]
+    end
+    subgraph Backend
+        GW[API Gateway]
+        U[Users Service]
+        B[Benefits Service]
+        C[Campaigns Service]
+    end
+    subgraph Data[Data - PostgreSQL per service]
+        PGU[(users DB)]
+        PGB[(benefits DB)]
+        PGC[(campaigns DB)]
+    end
+    subgraph Cloud
+        AWS[AWS managed services]
+    end
+    Web --> GW
+    GW --> U
+    GW --> B
+    GW --> C
+    U --> PGU
+    B --> PGB
+    C --> PGC
+    AWS -. hosts .-> Web
+    AWS -. hosts .-> Backend

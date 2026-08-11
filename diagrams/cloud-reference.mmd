@@ -1,0 +1,19 @@
+flowchart LR
+    subgraph Public
+        CDN[CDN / Edge]
+    end
+    subgraph AWS[Cloud Platform - AWS]
+        Web[Web Application - containers]
+        GW[API Gateway]
+        Srv[Services]
+        DB[(Managed Database)]
+        Storage[Object Storage]
+        IAM[IAM / Auth]
+    end
+    CDN --> Web
+    Web --> GW
+    GW --> Srv
+    Srv --> DB
+    Srv --> Storage
+    IAM -. auth .-> Web
+    IAM -. auth .-> GW

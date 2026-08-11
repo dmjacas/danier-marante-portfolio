@@ -60,7 +60,8 @@ The architecture should therefore be justified by business and organizational re
 ## Lessons Learned
 
 - Define business boundaries before defining services.
-- Avoid sharing databases indiscriminately.
+- Avoid sharing databases indiscriminately — **database per service** keeps service data ownership explicit and isolates failure domains (see [MerchantMiles data architecture →](../projects/merchant-miles/data-architecture.md)).
+- Reporting and analytics consume service APIs, not shared tables, so data ownership is never bypassed.
 - Make asynchronous processing explicit.
 - Treat observability as a design requirement, not an afterthought.
 - Document decisions as ADRs.
@@ -68,6 +69,7 @@ The architecture should therefore be justified by business and organizational re
 ## Related
 
 - [MerchantMiles case study →](../projects/merchant-miles/README.md)
+- [MerchantMiles data architecture →](../projects/merchant-miles/data-architecture.md)
 - [ADR-001 — Microservices →](../docs/architecture-decisions/ADR-001-microservices.md)
 - [Availability & Reliability](availability.md)
 - [Distributed Systems](distributed-systems.md)

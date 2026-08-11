@@ -45,3 +45,5 @@ Published MCP servers as npm packages to automate AI-assisted workflows, includi
 [MerchantMiles loyalty platform](../projects/merchant-miles/README.md)
 
 [AI process automation case study](../projects/ai-automation/README.md)
+
+[ppm-doc MCP server case study](../projects/ppm-doc/README.md)

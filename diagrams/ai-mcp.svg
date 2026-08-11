@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+<rect width="900" height="480" fill="white"/>
+<text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">AI / MCP Reference Architecture</text>
+<rect x="330" y="80" width="240" height="55" rx="10" fill="#f1f5f9" stroke="#334155"/>
+<text x="450" y="115" text-anchor="middle" font-family="Arial" font-size="18">Application</text>
+<line x1="450" y1="135" x2="450" y2="175" stroke="#334155" stroke-width="3"/>
+<rect x="330" y="175" width="240" height="55" rx="10" fill="#f1f5f9" stroke="#334155"/>
+<text x="450" y="210" text-anchor="middle" font-family="Arial" font-size="18">AI Orchestrator</text>
+<line x1="450" y1="230" x2="450" y2="275" stroke="#334155" stroke-width="3"/>
+<rect x="75" y="275" width="240" height="55" rx="10" fill="#f1f5f9" stroke="#334155"/>
+<text x="195" y="310" text-anchor="middle" font-family="Arial" font-size="15">Prompt / Policy Layer</text>
+<rect x="75" y="355" width="240" height="55" rx="10" fill="#f1f5f9" stroke="#334155"/>
+<text x="195" y="390" text-anchor="middle" font-family="Arial" font-size="15">Embedding Service</text>
+<rect x="75" y="435" width="240" height="45" rx="10" fill="#f1f5f9" stroke="#334155"/>
+<text x="195" y="463" text-anchor="middle" font-family="Arial" font-size="14">Vector Store</text>
+<rect x="330" y="275" width="240" height="55" rx="10" fill="#f1f5f9" stroke="#334155"/>
+<text x="450" y="310" text-anchor="middle" font-family="Arial" font-size="15">LLM Provider</text>
+<rect x="585" y="275" width="240" height="55" rx="10" fill="#f1f5f9" stroke="#334155"/>
+<text x="705" y="310" text-anchor="middle" font-family="Arial" font-size="15">Tools / MCP / APIs</text>
+<line x1="450" y1="230" x2="195" y2="275" stroke="#334155" stroke-width="2"/>
+<line x1="450" y1="230" x2="450" y2="275" stroke="#334155" stroke-width="2"/>
+<line x1="450" y1="230" x2="705" y2="275" stroke="#334155" stroke-width="2"/>
+<line x1="195" y1="330" x2="195" y2="355" stroke="#334155" stroke-width="2"/>
+<line x1="195" y1="410" x2="195" y2="435" stroke="#334155" stroke-width="2"/>
+<text x="450" y="445" text-anchor="middle" font-family="Arial" font-size="15" fill="#475569">Provider abstraction • deterministic business rules • human approval for high-impact actions</text>
+</svg>

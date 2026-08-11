@@ -16,20 +16,11 @@ Selected architecture diagrams across the portfolio. Each entry includes the pro
 
 ## Available diagram files
 
-- [Microservices (SVG)](microservices.svg)
+| Diagram | SVG | Mermaid source |
+|---|---|---|
+| Microservices (reference) | [microservices.svg](microservices.svg) | — |
+| MerchantMiles | [merchant-miles.svg](merchant-miles.svg) | [merchant-miles.mmd](merchant-miles.mmd) |
+| AI / MCP | [ai-mcp.svg](ai-mcp.svg) | [ai-mcp.mmd](ai-mcp.mmd) |
+| Cloud reference (AWS) | [cloud-reference.svg](cloud-reference.svg) | [cloud-reference.mmd](cloud-reference.mmd) |
 
-> Additional diagrams are `[in progress]`. Architecture for every project is described inline in its case study using ASCII or Mermaid where appropriate.
-
-## Reference: MerchantMiles architecture (Mermaid)
-
-```mermaid
-flowchart TD
-    Users[Clients - React / Next.js] --> API[API Gateway]
-    API --> UsersService[Users Service]
-    API --> BenefitsService[Benefits Service]
-    API --> CampaignsService[Campaigns Service]
-    UsersService --> PostgreSQL[(PostgreSQL)]
-    BenefitsService --> PostgreSQL
-    CampaignsService --> PostgreSQL
-    API --> External[External Integrations]
-```
+> Mermaid sources render in GitHub. SVGs are generated manually from the same structure so the gallery works offline.

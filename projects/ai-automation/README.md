@@ -35,7 +35,7 @@ Workflow Orchestration (n8n)
 
 ## Example: `ppm-doc` MCP server
 
-An MCP server published as an npm package that connects to Jira and generates development documents (`.md`) for user stories.
+An MCP server published as an npm package that connects to Jira and generates development documents (`.md`) for user stories. See the [full case study →](../ppm-doc/README.md).
 
 - Detects the current Git branch, changed files and open pull requests
 - Fetches the user story context from Jira

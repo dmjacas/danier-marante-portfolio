@@ -63,7 +63,7 @@ Enterprise AI architecture and process automation: Amazon Bedrock, embeddings an
 
 **Business problem:** How to automate repetitive engineering and business workflows with AI while keeping business rules deterministic and sensitive data protected.
 
-[AI Engineering →](ai/README.md) · [MCP case study →](ai/mcp.md) · [Process automation →](projects/ai-automation/README.md)
+[AI Engineering →](ai/README.md) · [ppm-doc case study →](projects/ppm-doc/README.md) · [Process automation →](projects/ai-automation/README.md)
 
 ### 3. GreenCloud — Carbon Footprint SaaS
 
@@ -87,6 +87,7 @@ Production e-commerce platform — [chaide.com](https://www.chaide.com) — buil
 
 - [Neutralfy — Carbon footprint compensation for air travel](projects/neutralfy/README.md)
 - [EasyBrok — Insurance sales management](projects/easybrok/README.md)
+- [ppm-doc — MCP server for automated development documentation](projects/ppm-doc/README.md)
 - [Mobile Solutions — React Native / Expo apps](projects/mobile-solutions/README.md)
   - Clubmiles Ecuador loyalty app
   - Aseguradora del Sur internal mobile tools
