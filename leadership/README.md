@@ -5,6 +5,7 @@ Technical leadership turns good architecture into delivered systems. Experience 
 ## Documents
 
 - [Technical Leadership](technical-leadership.md)
+- [Architecture Reviews & Decision Making](architecture-reviews.md)
 - [Engineering Process](engineering-process.md)
 - [Team Practices](team-practices.md)
 
