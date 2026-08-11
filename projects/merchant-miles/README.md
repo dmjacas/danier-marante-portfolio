@@ -98,14 +98,14 @@ Banks need their private-banking clients to perceive real value from their cards
           │ Service  │        │ Service  │        │ Service  │
           └────┬─────┘        └────┬─────┘        └────┬─────┘
                │                   │                   │
-               └───────────────────┼───────────────────┘
-                                   ▼
-                              PostgreSQL
+               ▼                   ▼                   ▼
+         PostgreSQL           PostgreSQL           PostgreSQL
+        (users DB)          (benefits DB)        (campaigns DB)
 
                     AWS / Docker / CI-CD / IaC
 ```
 
-> Diagram component validated with the project owner: the generic "API Layer" is an **API Gateway**.
+> Diagram component validated with the project owner: the generic "API Layer" is an **API Gateway**. Data architecture validated as **database per service** (see [Data Architecture](data-architecture.md)).
 
 ### Diagram: Context
 
@@ -135,7 +135,9 @@ flowchart TD
         C[Campaigns Service]
     end
     subgraph Data
-        PG[(PostgreSQL)]
+        PGU[(PostgreSQL - users)]
+        PGB[(PostgreSQL - benefits)]
+        PGC[(PostgreSQL - campaigns)]
     end
     subgraph Cloud
         AWS[AWS - managed services, IoC]
@@ -144,9 +146,9 @@ flowchart TD
     GW2 --> U
     GW2 --> B
     GW2 --> C
-    U --> PG
-    B --> PG
-    C --> PG
+    U --> PGU
+    B --> PGB
+    C --> PGC
     AWS -. hosts .-> Web
     AWS -. hosts .-> Backend
 ```

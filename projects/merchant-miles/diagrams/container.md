@@ -14,18 +14,22 @@ flowchart TD
         DataProc[Data Processing]
     end
 
-    subgraph Data[Data Store]
-        PG[(PostgreSQL)]
+    subgraph Data[Data Store - PostgreSQL]
+        PGU[(users DB)]
+        PGB[(benefits DB)]
+        PGC[(campaigns DB)]
     end
 
     Next --> GW
     GW --> Users
     GW --> Benefits
     GW --> Campaigns
-    Users --> PG
-    Benefits --> PG
-    Campaigns --> PG
-    DataProc -.-> PG
+    Users --> PGU
+    Benefits --> PGB
+    Campaigns --> PGC
+    DataProc -.->|service APIs| Users
+    DataProc -.->|service APIs| Benefits
+    DataProc -.->|service APIs| Campaigns
 
     subgraph Cloud[Cloud Platform]
         AWS[AWS managed services]
@@ -36,6 +40,7 @@ flowchart TD
 
 - Frontend: React, Next.js, TypeScript.
 - Backend: .NET Core 8, REST APIs, microservices behind an **API Gateway**.
-- Data: PostgreSQL (transactional).
+- Data: **database per service** — each service owns its PostgreSQL database (see [Data Architecture](../data-architecture.md)).
+- Reporting/data processing consume service APIs, not shared tables.
 - Deployment: AWS, Docker, CI/CD, Infrastructure as Code.
 - Details are architectural; proprietary implementation is excluded.
